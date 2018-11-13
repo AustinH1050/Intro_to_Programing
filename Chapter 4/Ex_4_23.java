@@ -17,7 +17,7 @@ class Ex_4_23 {
         double statax = 0.0;
         double grossPay = 0.0;        
         double fedtax = 0.0;
-        double netPay = 0.0;
+        double netpay = 0.0;
         double temp = 0.0;
         double stawit = 0.0;
         double totded = 0.0;
@@ -56,8 +56,8 @@ class Ex_4_23 {
         
         //Withholdings
         System.out.println("Deductions: ");
-        System.out.println("        Federal Withholding: (" + fedtax * 100) + "%): " + netPay);
-        System.out.println("        State Withholding: (" + (statax * 100) + "%): " + stawit);
+        System.out.print("        Federal Withholding: (" + (fedtax * 100) + " %): " + netpay);
+        System.out.print("        State Withholding: (" + (statax * 100) + "%): " + stawit);
         System.out.println("        Total Deduction: $" + totded);
         System.out.println("Net Pay: " + netpay);
 	}
