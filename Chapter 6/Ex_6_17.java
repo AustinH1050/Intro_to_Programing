@@ -1,3 +1,10 @@
+/*
+Author: Austin Haueter
+Date: 12/14/2018
+Ex_6_17
+*/
+
+
 import java.util.Scanner;
 
 class Ex_6_17 {
@@ -29,3 +36,4 @@ class Ex_6_17 {
 		}
 	}
 }
+
